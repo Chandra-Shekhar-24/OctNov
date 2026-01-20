@@ -6,7 +6,7 @@ class Q88 {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
 
-        // for size of arr1
+        //size of arr1
         System.out.println("Enter the size of first array");
         int size1 = obj.nextInt();
 
@@ -16,7 +16,7 @@ class Q88 {
             arr1[i] = obj.nextInt();
         }
 
-        // for size of arr2
+        //size of arr2
         System.out.println("Enter the size of second array");
         int size2 = obj.nextInt();
 
@@ -28,20 +28,20 @@ class Q88 {
 
         int[] arr3 = new int[size1 + size2];
 
-        // print the element of array 1
+        // print the elements of arr1
 
         System.out.print("Elements of first array : ");
         printArray(arr1);
         System.out.println();
         System.out.println();
         
-        // print the element of array 2
+        // print the elements of arr2
         System.out.print("Elements of second array : ");
         printArray(arr2);
         System.out.println();
         System.out.println();
 
-        // print the all element of array 1 and array 2 after merge
+        // print the all elements of arr1 and arr2 after merge both the arrays
         System.out.print("Sorted array after merge ");
         mergeTwoSortedArray(arr1, arr2, arr3);
 
