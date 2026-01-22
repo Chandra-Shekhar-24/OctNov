@@ -6,7 +6,7 @@ public class fibinacci {
         b = sum; 
         sum = a+b;
         
-        return fibo(n-1)+ fibo(n-2)zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz;
+        return fibo(n-1)+ fibo(n-2);
 
     }
     public static void main(String[] args) {
