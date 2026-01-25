@@ -36,7 +36,7 @@
 }
 
 .course-rating{
-    color: yellow;
+    color: gold;
 }
 
 .card-header-image img{
@@ -103,3 +103,4 @@
        grid-template-columns: repeat(4, 1fr);
     }
 }
+
